@@ -1,0 +1,84 @@
+.aboutMeContainer {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding: 5rem 0;
+    justify-content: space-between;
+
+}
+
+.aboutMeHeader {
+    padding: 30px 0 8px;
+    position: relative;
+
+}
+
+.aboutMeHeader::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 100px;
+    height: 4px;
+    background: #8EBFD6;
+}
+
+.aboutMeInfo {
+    display: flex;
+    flex-direction: column;
+    flex: 0 50%;
+}
+
+.aboutMePara {
+    display: inline-block;
+
+    padding-top: 1rem;
+}
+
+.aboutList {
+    display: grid;
+    grid-template-columns: repeat(2, 10rem);
+    margin: 0.75em 0;
+    padding: 0 1em;
+    list-style: none;
+}
+
+.aboutListItem {
+    color: #FBFEFA;
+    font-size: 1rem;
+}
+
+.aboutListItem::marker {
+    content: "▶ ";
+    color: #B537AD;
+}
+
+.photo {}
+
+.photoDavid {
+    flex: 0 50%;
+    width: 100%;
+    height: auto;
+}
+
+@media only screen and (max-width: 1200px) {}
+
+@media only screen and (max-width: 992px) {}
+
+@media only screen and (max-width: 768px) {
+    .aboutMeContainer {
+        flex-direction: column;
+    }
+
+    .photoDavid {
+        width: 50%;
+        padding-top: 3rem
+    }
+}
+
+@media only screen and (max-width: 576px) {
+
+    .photoDavid {
+        width: 70%;
+    }
+}

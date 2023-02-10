@@ -1,0 +1,96 @@
+/*Projects*/
+.projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.projectsHeader {
+    padding: 30px 0 8px;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.projectsHeader::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 170px;
+    height: 4px;
+    background: #8EBFD6;
+}
+
+
+/*ProjectCards*/
+
+div .card {
+    border-radius: 0;
+    background: #373854;
+
+
+}
+
+#cardPara {
+    color: #FBFEFA !important;
+}
+
+.anchorButton {
+    display: inline-block;
+    margin-right: 2px;
+    line-height: 50px;
+    width: 170px;
+    height: 50px;
+    background: #B537AD;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.second {
+    background: #8EBFD6;
+    color: #373854;
+}
+
+.second:link {
+    color: #373854;
+}
+
+.second:visited {
+    color: #373854;
+}
+
+.first:hover {
+    color: #373854;
+}
+
+.second:hover {
+    color: #E4FBFF;
+}
+
+.second:active {
+    color: #373854;
+}
+
+.cardImgTop {
+    width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+    .anchorButton {
+        width: 150px;
+        height: 44px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .anchorButton {
+        width: 130px;
+        height: 38px;
+        line-height: 38px;
+        font-size: .75rem;
+    }
+}
+
+/*Cards*/

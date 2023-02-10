@@ -1,0 +1,16 @@
+.sub {
+    background: linear-gradient(#373854, #505E78);
+    position: relative;
+    z-index: 5;
+}
+
+/* #373854 #505E78*/
+
+h2 {
+    color: #F797BB;
+    font-size: 2.369rem;
+}
+
+h3 {
+    font-size: 1.777rem;
+}

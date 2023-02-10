@@ -1,0 +1,21 @@
+/*
+Color Values: 
+primary text=#FBFEFA 
+secondary text=#F797BB 
+tertiary text=#E4FBFF 
+dark blue bg=#373854 
+medium blue bg=#505E78 
+light blue bg=#8EBFD6 
+magenta=#B537AD
+
+*/
+h1 {
+    color: #FBFEFA;
+    color: #F797BB;
+    color: #E4FBFF;
+    color: #373854;
+    color: #505E78;
+    color: #8EBFD6;
+    color: #B537AD;
+
+}
