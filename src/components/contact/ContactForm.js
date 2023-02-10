@@ -10,10 +10,10 @@ const ContactUs = () => {
         e.preventDefault();
 
         emailjs.sendForm(
-            'service_2mjxzop',
-            'template_74910zh',
+            '<your info here>',//you'll need your info here from emailjs
+            '<your info here>',//you'll need your info here from emailjs
             form.current,
-            'z1VzKZkdqp9V_iL1R'
+            '<your info here>'//you'll need your info here from emailjs
         )
             .then((result) => {
                 console.log(result.text);
