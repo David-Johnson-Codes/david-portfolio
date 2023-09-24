@@ -8,4 +8,4 @@ This project is a reworked from my first portfolio. Major improvements have been
 
 If you have any questions about this project, please email me at djohnson@davidrobertjohnson.com
 
-Note: For Emailjs, you'll need to add your information from your Emailjs account in contactForms.js file. You can easily found videos on youtube on how to complete this.
+Note: For Emailjs, you'll need to add your information from your Emailjs account in contactForms.js file. You can easily find videos on youtube on how to complete set up Emailjs.
